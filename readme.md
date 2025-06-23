@@ -5,7 +5,7 @@ To download binaries: http://blog.kowalczyk.info/software/pigz-for-windows.html
 
 ## How to build
 
-First, get [premake](http://industriousone.com/premake) and put somewhere in
+First, get [premake](https://premake.github.io/) and put somewhere in
 the `%PATH%`. I use premake 4.3
 
 ### Building via script
@@ -48,4 +48,4 @@ I used `dirent.[c|h]` from http://www.two-sdg.demon.co.uk/curbralan/code/dirent/
 I wrote a simple win32/wincompat.h that aliases names of some Unix functions to
 their win32 equivalents.
 
-I used [premake](http://industriousone.com/premake) for the build system.
+I used [premake](https://premake.github.io/) for the build system.
